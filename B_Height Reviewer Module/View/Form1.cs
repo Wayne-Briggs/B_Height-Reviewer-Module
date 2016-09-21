@@ -1,4 +1,5 @@
-﻿using B_Height_Reviewer_Module.Presenters;
+﻿using B_Height_Reviewer_Module.Model;
+using B_Height_Reviewer_Module.Presenters;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,20 +12,94 @@ using System.Windows.Forms;
 
 namespace B_Height_Reviewer_Module
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Form, IExcelData
     {
-        public Presenter presenter { get; set; }
+        private Presenter presenter;
+
+        public event EventHandler<EventArgs> getFilePath;
+        public event EventHandler<EventArgs> getTrackingSheet;
+        public event EventHandler<EventArgs> getCameraSheet;
+
+        public string tSheetFilePath
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public int tSheetNum
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public string cSheetFilePath
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public int cSheetNum
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public string oSheetFilePath
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
 
         public Form1()
         {
             InitializeComponent();
         }
 
+        private void Form1_load(object sender, EventArgs e)
+        {
+            presenter = new Presenter(this);
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                presenter.onBtnClick();
+                //presenter.onBtnClick();
                 //GetFilePath getfile = new GetFilePath();
                 //getfile.selectFile("Tracking");
                 //ReadExcelFile readexcel = new ReadExcelFile();
