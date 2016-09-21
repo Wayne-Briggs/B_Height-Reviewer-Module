@@ -29,15 +29,17 @@ namespace B_Height_Reviewer_Module.Presenters
 
         private void GetFilePath(object sender, EventArgs e)
         {
-            //Opens file search, lets user choose file, then retrieves filepath.
-            OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "XLS/XLSX Files (*.xls; *.xlsx)|*.xls; *.xlsx";
+            MessageBox.Show("Get File Path Worked!");
 
-            //Multiselect option for selecting mutiple camera sheets at once.
-            ofd.Multiselect = true;
+            ////Opens file search, lets user choose file, then retrieves filepath.
+            //OpenFileDialog ofd = new OpenFileDialog();
+            //ofd.Filter = "XLS/XLSX Files (*.xls; *.xlsx)|*.xls; *.xlsx";
 
-            if (ofd.ShowDialog() == DialogResult.OK)
-            {
+            ////Multiselect option for selecting mutiple camera sheets at once.
+            //ofd.Multiselect = true;
+
+            //if (ofd.ShowDialog() == DialogResult.OK)
+            //{
                 //switch (whichFile)
                 //{
                 //    case "Tracking":
@@ -58,7 +60,7 @@ namespace B_Height_Reviewer_Module.Presenters
                 //        Data.oSheetFilePath = ofd.FileName;
                 //        break;
                 //}
-            }
+            //}
         }
 
         private void GetTrackingSheet(object sender, EventArgs e)

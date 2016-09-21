@@ -1,2 +1,11 @@
 C:\Users\wayne.briggs\Desktop\B_Height Reviewer Module\B_Height Reviewer Module\bin\Debug\B_Height Reviewer Module.exe.config
 C:\Users\wayne.briggs\Desktop\GitHub\B_Height Reviewer Module\B_Height Reviewer Module\bin\Debug\B_Height Reviewer Module.exe.config
+C:\Users\wayne.briggs\Desktop\GitHub\B_Height Reviewer Module\B_Height Reviewer Module\obj\Debug\B_Height Reviewer Module.csprojResolveAssemblyReference.cache
+C:\Users\wayne.briggs\Desktop\GitHub\B_Height Reviewer Module\B_Height Reviewer Module\obj\Debug\B_Height_Reviewer_Module.Properties.Resources.resources
+C:\Users\wayne.briggs\Desktop\GitHub\B_Height Reviewer Module\B_Height Reviewer Module\obj\Debug\B_Height_Reviewer_Module.Form1.resources
+C:\Users\wayne.briggs\Desktop\GitHub\B_Height Reviewer Module\B_Height Reviewer Module\obj\Debug\B_Height_Reviewer_Module.Form2.resources
+C:\Users\wayne.briggs\Desktop\GitHub\B_Height Reviewer Module\B_Height Reviewer Module\obj\Debug\B_Height Reviewer Module.csproj.GenerateResource.Cache
+C:\Users\wayne.briggs\Desktop\GitHub\B_Height Reviewer Module\B_Height Reviewer Module\bin\Debug\B_Height Reviewer Module.exe
+C:\Users\wayne.briggs\Desktop\GitHub\B_Height Reviewer Module\B_Height Reviewer Module\bin\Debug\B_Height Reviewer Module.pdb
+C:\Users\wayne.briggs\Desktop\GitHub\B_Height Reviewer Module\B_Height Reviewer Module\obj\Debug\B_Height Reviewer Module.exe
+C:\Users\wayne.briggs\Desktop\GitHub\B_Height Reviewer Module\B_Height Reviewer Module\obj\Debug\B_Height Reviewer Module.pdb

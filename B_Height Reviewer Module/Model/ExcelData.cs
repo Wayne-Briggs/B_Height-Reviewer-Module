@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace B_Height_Reviewer_Module.Model
 {
-    class ExcelData
+    class ExcelData : IExcelData
     {
         //Data
         public string tSheetFilePath { get; set; }
@@ -18,6 +18,10 @@ namespace B_Height_Reviewer_Module.Model
         public List<string> cSheetFilePaths = new List<string>();
         public List<string> cameraList = new List<string>();
         public List<string> reviewerList = new List<string>();
+
+        public event EventHandler<EventArgs> getFilePath;
+        public event EventHandler<EventArgs> getTrackingSheet;
+        public event EventHandler<EventArgs> getCameraSheet;
 
         //Business logic
     }

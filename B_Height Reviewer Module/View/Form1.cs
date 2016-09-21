@@ -1,5 +1,6 @@
 ﻿using B_Height_Reviewer_Module.Model;
 using B_Height_Reviewer_Module.Presenters;
+using B_Height_Reviewer_Module.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,79 +13,8 @@ using System.Windows.Forms;
 
 namespace B_Height_Reviewer_Module
 {
-    public partial class Form1 : Form, IExcelData
+    public partial class Form1 : Form, IView
     {
-        private Presenter presenter;
-
-        public event EventHandler<EventArgs> getFilePath;
-        public event EventHandler<EventArgs> getTrackingSheet;
-        public event EventHandler<EventArgs> getCameraSheet;
-
-        public string tSheetFilePath
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public int tSheetNum
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public string cSheetFilePath
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public int cSheetNum
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public string oSheetFilePath
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
         public Form1()
         {
             InitializeComponent();
@@ -99,6 +29,7 @@ namespace B_Height_Reviewer_Module
         {
             try
             {
+                getFilePath(this, EventArgs.Empty);
                 //presenter.onBtnClick();
                 //GetFilePath getfile = new GetFilePath();
                 //getfile.selectFile("Tracking");

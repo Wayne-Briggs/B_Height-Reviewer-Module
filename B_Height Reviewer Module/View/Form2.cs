@@ -19,12 +19,12 @@ namespace B_Height_Reviewer_Module
 
         private void button1_Click(object sender, EventArgs e)
         {
-            GetFilePath getfile = new GetFilePath();
-            getfile.selectFile("Camera");
-            ReadExcelFile readexcel = new ReadExcelFile();
-            readexcel.readExcel(Data.cSheetFilePaths[0], Data.cSheetNum, "Camera");
-            this.Close();
-            Application.Exit();
+            //GetFilePath getfile = new GetFilePath();
+            //getfile.selectFile("Camera");
+            //ReadExcelFile readexcel = new ReadExcelFile();
+            //readexcel.readExcel(Data.cSheetFilePaths[0], Data.cSheetNum, "Camera");
+            //this.Close();
+            //Application.Exit();
         }
     }
 }
