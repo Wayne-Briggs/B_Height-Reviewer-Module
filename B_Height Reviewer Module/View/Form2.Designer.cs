@@ -1,4 +1,4 @@
-﻿namespace Bird_Height_Reviewer_Module_final
+﻿namespace B_Height_Reviewer_Module
 {
     partial class Form2
     {

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Bird_Height_Reviewer_Module_final
+namespace B_Height_Reviewer_Module
 {
     public partial class Form2 : Form
     {

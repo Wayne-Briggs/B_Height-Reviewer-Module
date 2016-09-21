@@ -1,4 +1,6 @@
-﻿using System;
+﻿using B_Height_Reviewer_Module.Models;
+using B_Height_Reviewer_Module.Presenters;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +18,18 @@ namespace B_Height_Reviewer_Module
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            // model
+            Model model = new Model();
+
+            // view2
+            Form1 view1 = new Form1();
+            Form2 view2 = new Form2();
+
+            // presenter
+            Presenter presenter = new Presenter(model, view1, view2);
+
+            Application.Run(view1);
         }
     }
 }
