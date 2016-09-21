@@ -1,0 +1,2 @@
+C:\Users\wayne.briggs\Desktop\B_Height Reviewer Module\B_Height Reviewer Module\bin\Debug\B_Height Reviewer Module.exe.config
+C:\Users\wayne.briggs\Desktop\GitHub\B_Height Reviewer Module\B_Height Reviewer Module\bin\Debug\B_Height Reviewer Module.exe.config
