@@ -1,6 +1,6 @@
 ﻿namespace Bird_Height_Reviewer_Module_final
 {
-    partial class Form1
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -36,30 +36,30 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(38, 21);
+            this.label1.Location = new System.Drawing.Point(40, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(407, 32);
+            this.label1.Size = new System.Drawing.Size(410, 32);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Please Select Tracking Sheet.";
+            this.label1.Text = "Please Select Camera Sheets.";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(159, 85);
+            this.button1.Location = new System.Drawing.Point(156, 85);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(162, 36);
+            this.button1.Size = new System.Drawing.Size(158, 36);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Select Tracking Sheet";
+            this.button1.Text = "Select Camera Sheets";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(483, 133);
+            this.ClientSize = new System.Drawing.Size(484, 133);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "Form2";
             this.Text = "Bird Height Reviewer Module";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -72,4 +72,3 @@
         private System.Windows.Forms.Button button1;
     }
 }
-

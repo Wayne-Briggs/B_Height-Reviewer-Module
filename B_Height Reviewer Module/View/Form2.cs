@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Bird_Height_Reviewer_Module_final
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
@@ -20,12 +20,11 @@ namespace Bird_Height_Reviewer_Module_final
         private void button1_Click(object sender, EventArgs e)
         {
             GetFilePath getfile = new GetFilePath();
-            getfile.selectFile("Tracking");
+            getfile.selectFile("Camera");
             ReadExcelFile readexcel = new ReadExcelFile();
-            readexcel.readExcel(Data.tSheetFilePath, Data.tSheetNum, "Tracking");
-            this.Hide();
-            Form2 form2 = new Form2();
-            form2.Show();
+            readexcel.readExcel(Data.cSheetFilePaths[0], Data.cSheetNum, "Camera");
+            this.Close();
+            Application.Exit();
         }
     }
 }
